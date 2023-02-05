@@ -32,7 +32,7 @@ export default function Menu (){ // (need to start with uppercase)
                     <Filtros filtro={filtro} setFiltro={setFiltro}/>
                     <Ordenator ordenador={ordenador} setOrdenador={setOrdenador}/>
                 </div>
-                <Itens/>
+                <Itens busca={busca} filtro={filtro} ordenador={ordenador}/>
             </section>
         </main>
     )
